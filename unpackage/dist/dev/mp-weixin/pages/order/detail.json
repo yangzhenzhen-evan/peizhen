@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar",
+    "uni-steps": "../../node-modules/@dcloudio/uni-ui/lib/uni-steps/uni-steps",
+    "uni-countdown": "../../node-modules/@dcloudio/uni-ui/lib/uni-countdown/uni-countdown",
+    "headline": "../../components/headline/headline",
+    "uni-popup-dialog": "../../node-modules/@dcloudio/uni-ui/lib/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup"
+  }
+}

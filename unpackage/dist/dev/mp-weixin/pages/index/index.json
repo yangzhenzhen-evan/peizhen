@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "skehome": "../../components/skehome/skehome",
+    "navbar": "../../components/navbar/navbar",
+    "uni-notice-bar": "../../node-modules/@dcloudio/uni-ui/lib/uni-notice-bar/uni-notice-bar",
+    "uni-list-item": "../../node-modules/@dcloudio/uni-ui/lib/uni-list-item/uni-list-item",
+    "uni-list": "../../node-modules/@dcloudio/uni-ui/lib/uni-list/uni-list"
+  }
+}

@@ -1,0 +1,110 @@
+{
+		"easycom": {
+			"autoscan": true,
+			"custom": {
+				// uni-ui 规则如下配置
+				"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+			}
+		},
+	// 页面路由
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/hospital/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path" : "pages/service/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/client/client",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"backgroundColor":"#f4f4f4"
+			}
+		},
+		{
+			"path" : "pages/order/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "components/skeletons/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	// 底部导肮
+	"tabBar": {
+		"backgroundColor":"#ffffff",
+		"color":"#535353",
+		"selectedColor":"#0bb584",
+		"borderStyle":"white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tab_index.png",
+				"selectedIconPath": "static/images/tab_index_seled.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/images/tab_pub.png",
+				"selectedIconPath": "static/images/tab_pub_seled.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/images/tab_user.png",
+				"selectedIconPath": "static/images/tab_user_seled.png",
+				"text": "我的"
+			}
+		]
+	},
+	// 全局样式
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		// 使用自定义导航
+		"navigationStyle":"custom"
+	}
+}

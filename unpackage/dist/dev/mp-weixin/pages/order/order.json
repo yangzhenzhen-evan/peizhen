@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar",
+    "uni-list-item": "../../node-modules/@dcloudio/uni-ui/lib/uni-list-item/uni-list-item",
+    "uni-list": "../../node-modules/@dcloudio/uni-ui/lib/uni-list/uni-list",
+    "mylogin": "../../components/mylogin/mylogin"
+  }
+}

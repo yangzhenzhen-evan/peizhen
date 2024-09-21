@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),t={__name:"headline",props:{title:{type:String,default:""}},setup:t=>(o,a)=>({a:e.t(t.title)})},o=e._export_sfc(t,[["__scopeId","data-v-a36789db"]]);wx.createComponent(o);
